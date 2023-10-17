@@ -32,37 +32,37 @@ public class Mathemagic {
 
 
     public static double periRect(int length, int width) {
-        return 0;
+        return length * 2 + width *2;
     }
 
 
     public static double trapArea(int base1, int base2, int height) {
-        return 0;
+        return (base1 + base2)/2f * height;
     }
 
 
     public static double conicVol(double radius, int height) {
-        return 0;
+        return (PI * radius * radius)* height/3f;
     }
 
 
     public static double cubicBarrier(int edge) {
-        return 0;
+        return edge * edge * 6;
     }
 
 
     public static double blastArea(double radius) {
-        return 0;
+        return PI * radius * radius;
     }
 
 
     public static double atmoShift(double fahr) {
-        return 0;
+        return (fahr-32) / 1.8 ;
     }
 
 
     public static double elevationVect(int x1, int y1, int x2, int y2) {
-        return 0;
+        return  (float) (y2-y1)/ (x2-x1) ;
     }
 
 
